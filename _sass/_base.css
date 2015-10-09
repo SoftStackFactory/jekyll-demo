@@ -1,0 +1,49 @@
+/*
+Error: Invalid CSS after "...ery($on-laptop)": expected "{", was ";"
+        on line 223 of /home/ubuntu/workspace/ssf-demo/_sass/_base.scss
+
+218: .right {
+219:     position: relative;
+220:     float: right;
+221:     display: block;
+222:     max-width: #{$content-width};
+223:     include media-query($on-laptop);
+224: }
+
+Backtrace:
+/home/ubuntu/workspace/ssf-demo/_sass/_base.scss:223
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:641:in `block'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:661:in `block_child'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:642:in `block'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/plugin.rb:82:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:361:in `watch_or_update'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/gems/sass-3.4.13/bin/scss:13:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/scss:23:in `load'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/scss:23:in `<main>'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.1.5@rails4/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ery($on-laptop)\": expected \"{\", was \";\"\A         on line 223 of /home/ubuntu/workspace/ssf-demo/_sass/_base.scss\A \A 218: .right {\A 219:     position: relative;\A 220:     float: right;\A 221:     display: block;\A 222:     max-width: #{$content-width};\A 223:     include media-query($on-laptop);\A 224: }"; }

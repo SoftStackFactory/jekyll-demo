@@ -1,0 +1,16 @@
+# Site settings
+title: SSF - SoftStackFactory
+email: ssf@softstackfactory.com
+description: > # this means to ignore newlines until "baseurl:"
+  SoftStack Factory (SSF) is a concept of an intensive software training school, 
+  combined with an On the Job Training, to a full time opportunity. 
+  SSF will select candidates from a pool of Community College bound population, 
+  via a regime of discovery and selection process. The concept uses open source, 
+  free or almost free tools to create software in a factory manner.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://jekyll-demo-andy-eagle.c9.io" # the base hostname & protocol for your site
+twitter_username: ssfactory
+github_username:  ssfactory
+
+# Build settings
+markdown: kramdown
