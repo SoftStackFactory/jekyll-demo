@@ -7,8 +7,8 @@ description: > # this means to ignore newlines until "baseurl:"
   SSF will select candidates from a pool of Community College bound population, 
   via a regime of discovery and selection process. The concept uses open source, 
   free or almost free tools to create software in a factory manner.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://softstackfactory.github.io/jekyll-demo/" # the base hostname & protocol for your site
+baseurl: "/jekyll-demo" # the subpath of your site, e.g. /blog/
+url: "http://softstackfactory.github.io/" # the base hostname & protocol for your site
 twitter_username: ssfactory
 github_username:  ssfactory
 
